@@ -10,4 +10,4 @@ class TestMethod(unittest.TestCase):
         self.assertEqual(calculate.get_int(), 1)
 
         calculate.get_random = mock.Mock(return_value=0.2)
-        self.assertEqual(calculate.get_int(), 0)
+        self.assertEqual(calculate.get_int(), 0) 
